@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
@@ -68,3 +69,7 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+=======
+# my-developer-portfolio
+A responsive single-page application built using React and styled with Tailwind CSS. Features include a dynamic Sidebar Navigation, responsive Header, and link integration for professional profiles (LinkedIn, GitHub, Email).
+>>>>>>> 6b0bbdafa3782dc87928d08de7ccb94ada416e20
