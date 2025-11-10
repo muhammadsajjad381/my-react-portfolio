@@ -40,7 +40,7 @@ export default function About() {
           <h2 className="text-5xl md:text-6xl font-extrabold text-[var(--color-primary)]">
             About Me
           </h2>
-          <p className="text-lg md:text-xl leading-relaxed">
+          <p className="text-lg md:text-xl leading-relaxed text-justify">
             I’m Muhammad Sajjad, a passionate Frontend Developer specializing in React.js. 
             I love turning creative ideas into **beautiful, responsive, and user-friendly web experiences**. 
             My focus is on writing clean and efficient code, implementing smooth animations, 
