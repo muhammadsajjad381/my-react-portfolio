@@ -136,13 +136,13 @@ export default function Header() {
 
         {/* 🌐 Social Icons */}
         <div className="absolute bottom-2 w-full flex justify-center  space-x-6 text-2xl text-yellow-300">
-          <a href="#" className="hover:text-white transition-all duration-300 transform hover:-translate-y-1">
+          <a href="https://github.com/betanni" className="hover:text-white transition-all duration-300 transform hover:-translate-y-1">
             <FaGithub />
           </a>
-          <a href="#" className="hover:text-white transition-all duration-300 transform hover:-translate-y-1">
+          <a href="https://www.linkedin.com/in/muhammad-sajjad-4aa2212b7/" className="hover:text-white transition-all duration-300 transform hover:-translate-y-1">
             <FaLinkedin />
           </a>
-          <a href="#" className="hover:text-white transition-all duration-300 transform hover:-translate-y-1">
+          <a href="https://mail.google.com/mail/u/0/#inbox" className="hover:text-white transition-all duration-300 transform hover:-translate-y-1">
             <FaEnvelope />
           </a>
         </div>
