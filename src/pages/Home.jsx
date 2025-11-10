@@ -30,7 +30,7 @@ export default function Home() {
 
         <div className="flex space-x-4">
           <a
-            href="/MuhammadSajjad.pdf"
+            href="/Muhammad_Sajjad_Cv .docx.pdf"
             // download="Muhammad_Sajjad_CV.pdf"
             target="_blank"
             rel="noopener noreferrer"

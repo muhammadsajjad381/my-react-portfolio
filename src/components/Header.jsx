@@ -40,16 +40,16 @@ export default function Header() {
         <nav className="max-w-7xl mx-auto flex justify-between items-center px-6 md:px-16">
           {/* Logo / Name */}
           <h1 className="text-2xl font-bold text-gray-900 dark:text-white">
-            Sajjad.DEV
+            Sajjad.Dev
           </h1>
 
-          {/* 🌞 Dark/Light Toggle */}
-         
+
+
 
           {/* 🖥️ Desktop Menu */}
           <ul className="hidden md:flex space-x-8 text-lg font-medium text-gray-900 dark:text-white">
             
-            {["Home", "About", "Skills", "Services", "Contact"].map((item) => (
+            {["Home", "About", "Services", "Skills", "Contact"].map((item) => (
               <li key={item}>
                 <a
                   href={`#${item.toLowerCase()}`}
@@ -135,7 +135,7 @@ export default function Header() {
         </ul>
 
         {/* 🌐 Social Icons */}
-        <div className="absolute bottom-2 w-full flex justify-center space-x-6 text-2xl text-yellow-300">
+        <div className="absolute bottom-2 w-full flex justify-center  space-x-6 text-2xl text-yellow-300">
           <a href="#" className="hover:text-white transition-all duration-300 transform hover:-translate-y-1">
             <FaGithub />
           </a>
