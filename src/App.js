@@ -8,6 +8,7 @@ const Services = lazy(() => import("./pages/Services"));
 const Skills = lazy(() => import("./pages/Skills"));
 const Contact = lazy(() => import("./pages/Contact"));
 const Footer = lazy(() => import("./pages/Footer"));
+const Projects = lazy(() => import("./pages/Projects"))
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
         <About />
         <Services />
         <Skills />
+        {/* <Projects /> */}
         <Contact />
         <Footer />
       </Suspense>

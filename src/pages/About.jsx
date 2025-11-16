@@ -18,7 +18,7 @@ export default function About() {
           initial={{ opacity: 0, scale: 0.8 }}
           animate={imageInView ? { opacity: 1, scale: 1 } : {}}
           transition={{ duration: 0.8, ease: "easeOut" }}
-          className="flex-1 flex justify-center items-center mb-12 md:mb-0"
+          className="flex-1 flex justify-start items-center mb-12 md:mb-0"
         >
           <div className="w-72 md:w-96 h-96 md:h-[28rem] rounded-3xl overflow-hidden shadow-2xl border-4 border-[var(--color-primary)] shrink-0">
             <img
@@ -42,10 +42,10 @@ export default function About() {
           </h2>
           <p className="text-lg md:text-xl leading-relaxed text-justify">
             I’m Muhammad Sajjad, a passionate Frontend Developer specializing in React.js. 
-            I love turning creative ideas into **beautiful, responsive, and user-friendly web experiences**. 
+            I love turning creative ideas into <b>beautiful, responsive, and user-friendly web experiences</b>. 
             My focus is on writing clean and efficient code, implementing smooth animations, 
             and ensuring that every design I build looks stunning across all devices. 
-            I continuously explore modern web technologies like **Tailwind CSS, JavaScript, and Framer Motion** 
+            I continuously explore modern web technologies like <b>Tailwind CSS, JavaScript, and Framer Motion</b>
             to deliver high-performance and visually appealing applications.
           </p>
           
