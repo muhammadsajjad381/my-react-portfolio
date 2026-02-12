@@ -1,6 +1,6 @@
 import React from "react";
 import { motion } from "framer-motion";
-import { Mail, Phone, MapPin, Github, Linkedin, Facebook, Send, Terminal } from "lucide-react";
+import { Mail, Phone, MapPin, Github, Linkedin, Facebook, Send } from "lucide-react";
 
 export default function Contact() {
   return (
@@ -130,3 +130,4 @@ export default function Contact() {
     </section>
   );
 }
+
