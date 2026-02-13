@@ -5,8 +5,9 @@ const Sidebar = ({ isOpen, toggleSidebar }) => {
   const menuItems = [
     { icon: <FaHome />, label: "Home", href: "#home" },
     { icon: <FaUser />, label: "About", href: "#about" },
-    { icon: <FaCode />, label: "Skills", href: "#skills" },
     { icon: <FaServicestack />, label: "Services", href: "#services" },
+    { icon: <FaCode />, label: "Projects", href: "#projects" },
+    { icon: <FaCode />, label: "Skills", href: "#skills" },
     { icon: <FaEnvelope />, label: "Contact", href: "#contact" },
   ];
 
@@ -67,3 +68,4 @@ const Sidebar = ({ isOpen, toggleSidebar }) => {
 };
 
 export default Sidebar;
+
