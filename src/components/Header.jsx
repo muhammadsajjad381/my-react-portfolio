@@ -54,11 +54,6 @@ export default function Header({ toggleSidebar }) {
             Sajjad<span className="text-cyan-500">.Dev</span>
           </h1>
         </div>
-<<<<<<< HEAD
-=======
-
-        {/* Desktop Menu */}
->>>>>>> 99ed18024ed85efd28bb0dbe1a880046048f8111
         <ul className="hidden md:flex items-center space-x-10">
           {navLinks.map((item) => {
             const id = item.toLowerCase();
@@ -84,11 +79,6 @@ export default function Header({ toggleSidebar }) {
             );
           })}
         </ul>
-<<<<<<< HEAD
-=======
-
-        {/* Mobile Toggle Button */}
->>>>>>> 99ed18024ed85efd28bb0dbe1a880046048f8111
         <button
           onClick={toggleSidebar}
           className="md:hidden p-2 text-white text-2xl active:scale-90 transition-transform"
