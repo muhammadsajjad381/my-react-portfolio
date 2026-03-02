@@ -1,6 +1,7 @@
 import React from "react";
 import { motion } from "framer-motion";
 import { FaCode, FaBolt, FaMagic } from "react-icons/fa";
+import { FaCode, FaBolt, FaMagic } from "react-icons/fa";
 
 export default function About() {
   return (
@@ -18,6 +19,13 @@ export default function About() {
           whileInView={{ opacity: 1, y: 0 }}
           className="flex items-center gap-3 mb-6 justify-center lg:justify-start"
         >
+          <span className="relative flex h-2 w-2">
+            <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-blue-400 opacity-75"></span>
+            <span className="relative inline-flex rounded-full h-2 w-2 bg-blue-600"></span>
+          </span>
+          <span className="text-[10px] font-bold uppercase tracking-[0.3em] text-gray-400">
+            About the Dev
+          </span>
           <span className="relative flex h-2 w-2">
             <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-blue-400 opacity-75"></span>
             <span className="relative inline-flex rounded-full h-2 w-2 bg-blue-600"></span>
@@ -104,6 +112,9 @@ export default function About() {
             <span className="text-base group-hover:translate-x-1 transition-transform">→</span>
           </a>
         </motion.div>
+      </div>
+    </section>
+  );
       </div>
     </section>
   );
