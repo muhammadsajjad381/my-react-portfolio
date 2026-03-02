@@ -1,7 +1,6 @@
 import React from "react";
 import { motion } from "framer-motion";
 import { FaCode, FaBolt, FaMagic } from "react-icons/fa";
-import { FaCode, FaBolt, FaMagic } from "react-icons/fa";
 
 export default function About() {
   return (
@@ -115,7 +114,5 @@ export default function About() {
       </div>
     </section>
   );
-      </div>
-    </section>
-  );
+  
 }

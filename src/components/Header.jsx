@@ -1,9 +1,7 @@
 import React, { useEffect, useState } from "react";
-<<<<<<< HEAD
+
 import { FaBars } from "react-icons/fa";
-=======
-import { FaBars, FaTerminal } from "react-icons/fa";
->>>>>>> 99ed18024ed85efd28bb0dbe1a880046048f8111
+
 
 export default function Header({ toggleSidebar }) {
   const [scrolled, setScrolled] = useState(false);
