@@ -4,22 +4,27 @@ import { FaGithub, FaExternalLinkAlt, FaCode } from "react-icons/fa";
 
 const projects = [
   {
-    title: "Lamudi.pk Engine",
+    title: "Recruit Ai",
     desc: "High-scale real estate portal with fast filtering.",
-    img: "https://images.unsplash.com/photo-1560514446-440a3ad58417?q=80&w=800",
+    img: "/recruitAi.png",
     tags: ["React", "Logic"],
+    github: "https://github.com/muhammadsajjad381/FYP-RecruitAI-System", 
+    demo: "#"
   },
   {
-    title: "Elite Showroom",
+    title: "Personal Portfolio",
     desc: "3D-interactive gallery with smooth transitions.",
-    img: "https://images.unsplash.com/photo-1492144534655-ae79c964c9d7?q=80&w=800",
+    img: "/portfolioo.png",
     tags: ["GSAP", "UI/UX"],
+    github: "https://github.com/muhammadsajjad381/my-react-portfolio", 
   },
   {
-    title: "Marketplace OLX",
+    title: "Saas Dashboard",
     desc: "Classifieds platform with optimized assets.",
-    img: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?q=80&w=800",
+    img: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&w=800&q=80",
     tags: ["Next.js", "Tailwind"],
+    github: "https://github.com/muhammadsajjad381/saas-analytics-dashboard", 
+    demo: "#"
   },
 ];
 
@@ -47,6 +52,7 @@ export default function Projects() {
             Efficiently Built Solutions
           </p>
         </div>
+
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
           {projects.map((project, index) => (
             <motion.div
@@ -62,15 +68,29 @@ export default function Projects() {
                   className="w-full h-full object-cover grayscale-[100%] group-hover:grayscale-0 transition-all duration-700 group-hover:scale-105"
                   alt={project.title}
                 />
+                
+               
                 <div className="absolute inset-0 bg-black/40 opacity-0 group-hover:opacity-100 transition-opacity flex items-center justify-center gap-4">
-                  <a href="https://github.com/muhammadsajjad381" className="p-3 bg-white rounded-full text-black hover:bg-blue-600 hover:text-white transition-all transform translate-y-4 group-hover:translate-y-0 duration-300">
+                  <a 
+                    href={project.github} 
+                    target="_blank" 
+                    rel="noopener noreferrer"
+                    className="p-3 bg-white rounded-full text-black hover:bg-blue-600 hover:text-white transition-all transform translate-y-4 group-hover:translate-y-0 duration-300"
+                  >
                     <FaGithub size={16} />
                   </a>
-                  <a href="#" className="p-3 bg-white rounded-full text-black hover:bg-blue-600 hover:text-white transition-all transform translate-y-4 group-hover:translate-y-0 duration-300 delay-75">
+                  <a 
+                    href={project.demo} 
+                    target="_blank" 
+                    rel="noopener noreferrer"
+                    className="p-3 bg-white rounded-full text-black hover:bg-blue-600 hover:text-white transition-all transform translate-y-4 group-hover:translate-y-0 duration-300 delay-75"
+                  >
                     <FaExternalLinkAlt size={14} />
                   </a>
                 </div>
               </div>
+
+              {/* Text Content */}
               <div className="mt-4 space-y-2">
                 <div className="flex items-center justify-between">
                   <h3 className="text-lg font-bold text-gray-900 dark:text-white tracking-tight">
@@ -82,6 +102,7 @@ export default function Projects() {
                 <p className="text-xs text-gray-500 dark:text-gray-400 leading-relaxed line-clamp-2">
                   {project.desc}
                 </p>
+
                 <div className="flex gap-2 pt-1">
                   {project.tags.map(tag => (
                     <span key={tag} className="text-[9px] font-bold text-blue-600 dark:text-blue-400 bg-blue-50 dark:bg-blue-600/10 px-2 py-0.5 rounded-md uppercase">
@@ -93,6 +114,7 @@ export default function Projects() {
             </motion.div>
           ))}
         </div>
+
         <div className="mt-12 text-center">
           <button className="text-[10px] font-black uppercase tracking-[0.3em] text-gray-400 hover:text-blue-600 transition-all">
             View Archive +
