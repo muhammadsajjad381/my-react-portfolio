@@ -54,7 +54,7 @@ export default function Home() {
             href="/Muhammad_Sajjad_React_Developer.pdf" 
             target="_blank"
             rel="noopener noreferrer"
-            download="Muhammad_Sajjad_React_Developer-CV.pdf" 
+            download="Muhammad_Sajjad_ReactDev.pdf" 
             className="group flex items-center gap-3 px-8 py-4 bg-gray-900 dark:bg-white text-white dark:text-gray-900 rounded-2xl font-bold shadow-xl transition-all duration-300 transform hover:-translate-y-1"
           >
             Get My CV{" "}
