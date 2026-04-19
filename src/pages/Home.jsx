@@ -51,7 +51,7 @@ export default function Home() {
 
         <div className="flex flex-wrap items-center justify-center md:justify-start gap-4 pt-4">
           <a
-            href="/Muhammad_Sajjad_React_Developer.pdf" 
+            href="/Muhammad_Sajjad_ReactDev.pdf" 
             target="_blank"
             rel="noopener noreferrer"
             download="Muhammad_Sajjad_ReactDev.pdf" 
