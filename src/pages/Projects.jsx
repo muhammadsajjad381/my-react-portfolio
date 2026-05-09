@@ -15,17 +15,27 @@ const projects = [
     title: "Personal Portfolio",
     desc: "3D-interactive gallery with smooth transitions.",
     img: "/portfolioo.png",
-    tags: ["GSAP", "UI/UX"],
+    tags: ["React", "framer-motion"],
     github: "https://github.com/muhammadsajjad381/my-react-portfolio", 
+    demo: "https://msajjad-wdgu.vercel.app/"
+
   },
   {
     title: "Saas Dashboard",
     desc: "Classifieds platform with optimized assets.",
-    img: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&w=800&q=80",
-    tags: ["Next.js", "Tailwind"],
+    img: "/dashboard.png",
+    tags: ["react Vite.js", "Tailwind"],
     github: "https://github.com/muhammadsajjad381/saas-analytics-dashboard", 
     demo: "#"
   },
+  {
+    title: "Pharmacy Management",
+    desc: "Comprehensive pharmacy POS and management solution.",
+    img: "/pharmacy.png",
+    tags: ["React", "Tailwind"],
+    github: "https://github.com/muhammadsajjad381/pharmascribe-pms", 
+    demo: "#"
+  }
 ];
 
 export default function Projects() {
