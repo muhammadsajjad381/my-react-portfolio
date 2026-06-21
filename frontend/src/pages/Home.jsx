@@ -34,9 +34,9 @@ export default function Home() {
         </motion.div>
 
         <h1 className="text-4xl md:text-6xl lg:text-7xl font-extrabold leading-tight tracking-tight mb-6">
-          Frontend <br className="hidden md:block" />
+          MERN <br className="hidden md:block" />
           <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-600 to-indigo-500 dark:from-blue-400 dark:to-cyan-300">
-            React Developer
+            Stack Developer
           </span>
         </h1>
 
@@ -45,16 +45,16 @@ export default function Home() {
           <span className="text-gray-900 dark:text-white font-bold">
             Muhammad Sajjad
           </span>
-          . A specialized React Developer building high-end, scalable web
+          . A specialized MERN STACK Developer building high-end, scalable web
           architectures.
         </p>
 
         <div className="flex flex-wrap items-center justify-center md:justify-start gap-4 pt-4">
           <a
-            href="/MuhammadSajjadCV.pdf" 
+            href="/MuhammadSajjadFullMernDev.pdf" 
             target="_blank"
             rel="noopener noreferrer"
-            download="MuhammadSajjadCV.pdf" 
+            download="MuhammadSajjadFullMernDev.pdf" 
             className="group flex items-center gap-3 px-8 py-4 bg-gray-900 dark:bg-white text-white dark:text-gray-900 rounded-2xl font-bold shadow-xl transition-all duration-300 transform hover:-translate-y-1"
           >
             Get My CV{" "}

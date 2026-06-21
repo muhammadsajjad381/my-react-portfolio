@@ -2,22 +2,31 @@ import React, { useState } from "react";
 import { motion } from "framer-motion";
 
 const techStack = {
-  core: {
-    label: "Core Architecture",
-    color: "#3b82f6",
+  frontend: {
+    label: "Frontend Systems",
+    color: "#06b6d4", // Cyan
     items: [
-      { id: "c1", name: "HTML5", level: "Structure" },
-      { id: "c2", name: "CSS3", level: "Design" },
-      { id: "c3", name: "JavaScript", level: "Logic" }
+      { id: "f1", name: "React.js", level: "Library" },
+      { id: "f2", name: "Tailwind CSS", level: "Utility" },
+      { id: "f3", name: "JavaScript/ES6+", level: "Logic" }
     ]
   },
-  frameworks: {
-    label: "Modern Frameworks",
-    color: "#06b6d4",
+  backend: {
+    label: "Backend Architecture",
+    color: "#10b981", // Emerald Green (Node/Express vibe)
     items: [
-      { id: "f1", name: "React", level: "Library" },
-      { id: "f2", name: "Tailwind", level: "Utility" },
-      { id: "f3", name: "Framer", level: "Motion" }
+      { id: "b1", name: "Node.js", level: "Runtime" },
+      { id: "b2", name: "Express.js", level: "Framework" },
+      { id: "b3", name: "RESTful APIs", level: "Routing" }
+    ]
+  },
+  database: {
+    label: "Database Engineering",
+    color: "#f59e0b", // Amber/Gold (Database vibe)
+    items: [
+      { id: "d1", name: "MongoDB", level: "NoSQL DB" },
+      { id: "d2", name: "Mongoose ODM", level: "Modeling" },
+      { id: "d3", name: "JWT Auth", level: "Security" }
     ]
   },
   workflow: {
@@ -25,8 +34,8 @@ const techStack = {
     color: "#8b5cf6", // Purple
     items: [
       { id: "w1", name: "Git/GitHub", level: "Version" },
-      { id: "w2", name: "Vite", level: "Bundler" },
-      { id: "w3", name: "Deployment", level: "Production" }
+      { id: "w2", name: "Vite / Next.js", level: "Bundler" },
+      { id: "w3", name: "Deployment", level: "Vercel/Prod" }
     ]
   }
 };
@@ -38,18 +47,19 @@ export default function Skills() {
     <section id="skills" className="min-h-screen bg-[#020202] py-20 px-6 flex flex-col items-center justify-center">
       
       {/* Header */}
-      <div className="max-w-5xl w-full mb-20">
+      <div className="max-w-7xl w-full mb-20">
         <h2 className="text-5xl md:text-7xl font-black text-white tracking-tighter">
           Technical <span className="text-zinc-800">Intelligence.</span>
         </h2>
       </div>
 
-      <div className="max-w-6xl w-full grid grid-cols-1 md:grid-cols-3 gap-16">
+      {/* Grid updated to grid-cols-4 for perfect MERN balance */}
+      <div className="max-w-7xl w-full grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-10">
         
         {Object.entries(techStack).map(([categoryKey, data]) => (
           <div key={categoryKey} className="relative">
             <div className="flex items-center gap-4 mb-10">
-              <span className="text-[11px] font-black uppercase tracking-[0.5em] text-zinc-600">
+              <span className="text-[11px] font-black uppercase tracking-[0.5em] text-zinc-600 white-space-nowrap">
                 {data.label}
               </span>
               <motion.div 
@@ -107,7 +117,7 @@ export default function Skills() {
       </div>
 
       <div className="mt-24 text-zinc-800 text-[10px] font-mono tracking-[0.5em]">
-        SYSTEM READY // STACK VISUALIZER
+        SYSTEM READY // MERN FULL-STACK VISUALIZER
       </div>
     </section>
   );
